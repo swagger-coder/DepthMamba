@@ -32,7 +32,7 @@ from depth_anything.util.transform import Resize, NormalizeImage, PrepareForNet
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('--img-path', type=str)
+    parser.add_argument('--img_path', type=str)
     parser.add_argument('--outdir', type=str, default='./vis_depth')
     parser.add_argument('--lr', type=float, default=None, metavar='LR',
                         help='learning rate (absolute lr)')

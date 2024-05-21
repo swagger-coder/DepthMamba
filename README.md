@@ -39,7 +39,10 @@
   pip install -e causal_conv1d>=1.1.0
   pip install -e mamba-1p1p1
   ```
+
+3. 下载并处理数据集
   
+   参考 https://github.com/pytorch/examples/tree/main/imagenet 下载并处理数据集
   
 
 ## 使用说明
@@ -47,6 +50,11 @@
 训练
 ```bash
 bash pretrain_deptha_0516.sh
+```
+
+推理
+```bash
+bash infer.sh
 ```
 
 
